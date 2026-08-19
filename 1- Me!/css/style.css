@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.header {
+    background-color: lightpink;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header h1 {
+    color: darkorchid;
+    letter-spacing: 2px;
+}
+
+.content {
+    background-color: lightyellow;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.text-1 {
+    color: blue;
+}
+
+.text-2 {
+    color: purple;
+}
+
+.text-3 {
+    color: green;
+}
+
+.content hr {
+    width: 50%;
+    margin: 25px auto;
+    border: 0;
+    border-top: 1px solid black;
+}
